@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoticiaVideoTableViewCell" rowHeight="246" id="KGk-i7-Jjw" userLabel="NoticiaVideoTableViewCell" customClass="NoticiaVideoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="246"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" userLabel="DefaultView">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="245"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOM-g0-7kC" userLabel="ContenidoView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="245"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A9H-Yl-Jix" userLabel="VideoImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="245"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_image_noticia_video_play" translatesAutoresizingMaskIntoConstraints="NO" id="yEa-jL-8WK" userLabel="PlayVideoImageView">
+                                <rect key="frame" x="105" y="49" width="110" height="110"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yEa-jL-8WK" secondAttribute="height" id="zxf-Ch-cyt"/>
+                                </constraints>
+                            </imageView>
+                            <view alpha="0.79999999999999982" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g81-vU-v4q" userLabel="VideoLabelView">
+                                <rect key="frame" x="0.0" y="184" width="320" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="sT9-2i-IeK" userLabel="VideoLabel">
+                                        <rect key="frame" x="10" y="0.0" width="300" height="61"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.77647058820000003" green="0.090196078430000007" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="sT9-2i-IeK" secondAttribute="bottom" id="1KC-0F-Aiy"/>
+                                    <constraint firstItem="sT9-2i-IeK" firstAttribute="top" secondItem="g81-vU-v4q" secondAttribute="top" id="1bO-OM-UZQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="sT9-2i-IeK" secondAttribute="trailing" constant="10" id="AaJ-WC-Mre"/>
+                                    <constraint firstItem="sT9-2i-IeK" firstAttribute="leading" secondItem="g81-vU-v4q" secondAttribute="leading" constant="10" id="bRu-NA-HxS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g81-vU-v4q" firstAttribute="leading" secondItem="AOM-g0-7kC" secondAttribute="leading" id="6jS-H9-aOL"/>
+                            <constraint firstAttribute="centerX" secondItem="yEa-jL-8WK" secondAttribute="centerX" id="ALY-w0-2uK"/>
+                            <constraint firstAttribute="trailing" secondItem="g81-vU-v4q" secondAttribute="trailing" id="DEh-ca-oQa"/>
+                            <constraint firstAttribute="bottom" secondItem="g81-vU-v4q" secondAttribute="bottom" id="F8N-fo-dEf"/>
+                            <constraint firstItem="A9H-Yl-Jix" firstAttribute="leading" secondItem="AOM-g0-7kC" secondAttribute="leading" id="KcX-RG-zvq"/>
+                            <constraint firstItem="A9H-Yl-Jix" firstAttribute="top" secondItem="AOM-g0-7kC" secondAttribute="top" id="OWV-O0-KJk"/>
+                            <constraint firstAttribute="height" secondItem="g81-vU-v4q" secondAttribute="height" multiplier="400%" id="Ocn-O1-3j9"/>
+                            <constraint firstAttribute="trailing" secondItem="A9H-Yl-Jix" secondAttribute="trailing" id="fxj-Mx-GOc"/>
+                            <constraint firstItem="yEa-jL-8WK" firstAttribute="height" secondItem="AOM-g0-7kC" secondAttribute="height" multiplier="45%" id="hX1-lc-6EG"/>
+                            <constraint firstItem="g81-vU-v4q" firstAttribute="top" secondItem="yEa-jL-8WK" secondAttribute="bottom" constant="25" id="hmp-R7-t57"/>
+                            <constraint firstAttribute="bottom" secondItem="A9H-Yl-Jix" secondAttribute="bottom" id="xay-XQ-DGD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="AOM-g0-7kC" secondAttribute="bottom" id="1bl-0H-AEr"/>
+                    <constraint firstItem="AOM-g0-7kC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ebB-fJ-2Sv"/>
+                    <constraint firstAttribute="trailing" secondItem="AOM-g0-7kC" secondAttribute="trailing" id="pbK-In-Rna"/>
+                    <constraint firstItem="AOM-g0-7kC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qV7-A6-gea"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="videoImagen" destination="A9H-Yl-Jix" id="K6o-SA-cdX"/>
+                <outlet property="videoTexto" destination="sT9-2i-IeK" id="Or1-tM-G9K"/>
+            </connections>
+            <point key="canvasLocation" x="-27" y="217"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_image_noticia_video_play" width="50" height="50"/>
+    </resources>
+</document>

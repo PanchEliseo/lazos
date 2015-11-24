@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuzonRegaloTableViewCell" rowHeight="95" id="KGk-i7-Jjw" customClass="BuzonRegaloTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="94"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j3j-9a-kXj" userLabel="ContenidoView">
+                        <rect key="frame" x="0.0" y="0.0" width="349" height="94"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o8d-jQ-hdh" userLabel="FotoView">
+                                <rect key="frame" x="0.0" y="0.0" width="90" height="94"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ydz-vK-RYo" userLabel="FotoImageView">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="94"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Ydz-vK-RYo" secondAttribute="trailing" id="WOZ-jT-YqI"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ydz-vK-RYo" secondAttribute="bottom" id="ePc-PC-hJs"/>
+                                    <constraint firstItem="Ydz-vK-RYo" firstAttribute="leading" secondItem="o8d-jQ-hdh" secondAttribute="leading" id="heI-Zx-U3B"/>
+                                    <constraint firstItem="Ydz-vK-RYo" firstAttribute="top" secondItem="o8d-jQ-hdh" secondAttribute="top" id="nzE-3L-WVf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-kG-tEo" userLabel="FechaView">
+                                <rect key="frame" x="262" y="0.0" width="87" height="33"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/Septiembre/2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="aEu-AG-llG" userLabel="FechaLabel">
+                                        <rect key="frame" x="5" y="2" width="77" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" red="0.77647058823529413" green="0.090196078431372548" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="aEu-AG-llG" firstAttribute="top" secondItem="fzq-kG-tEo" secondAttribute="top" constant="2" id="343-T0-tBH"/>
+                                    <constraint firstAttribute="trailing" secondItem="aEu-AG-llG" secondAttribute="trailing" constant="5" id="MEr-98-xfL"/>
+                                    <constraint firstAttribute="bottom" secondItem="aEu-AG-llG" secondAttribute="bottom" constant="2" id="dOj-R0-hHE"/>
+                                    <constraint firstItem="aEu-AG-llG" firstAttribute="leading" secondItem="fzq-kG-tEo" secondAttribute="leading" constant="5" id="jbU-ii-qo4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gz-yb-Frx" userLabel="MensajeView">
+                                <rect key="frame" x="90" y="33" width="259" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estas son las mañanitas que cantaba el rey David, hoy por ser el día de tu cumpleaños te las cantamos" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1i-Zm-Kbb" userLabel="MensajeMainLabel">
+                                        <rect key="frame" x="5" y="2" width="249" height="57"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="M1i-Zm-Kbb" firstAttribute="top" secondItem="3gz-yb-Frx" secondAttribute="top" constant="2" id="QuY-JL-NNn"/>
+                                    <constraint firstAttribute="bottom" secondItem="M1i-Zm-Kbb" secondAttribute="bottom" constant="2" id="aNl-cS-06U"/>
+                                    <constraint firstAttribute="trailing" secondItem="M1i-Zm-Kbb" secondAttribute="trailing" constant="5" id="lcm-mH-Kx1"/>
+                                    <constraint firstItem="M1i-Zm-Kbb" firstAttribute="leading" secondItem="3gz-yb-Frx" secondAttribute="leading" constant="5" id="qsl-1S-lPx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTH-JX-PXt" userLabel="SaludoView">
+                                <rect key="frame" x="125" y="0.0" width="137" height="33"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Felicidades! Felicidades Felicidades" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="jzI-En-BE1" userLabel="SaludoLabel">
+                                        <rect key="frame" x="5" y="2" width="127" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.062745098039215685" green="0.10980392156862745" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="jzI-En-BE1" secondAttribute="bottom" constant="2" id="BVW-s9-bb5"/>
+                                    <constraint firstItem="jzI-En-BE1" firstAttribute="top" secondItem="eTH-JX-PXt" secondAttribute="top" constant="2" id="Ikh-DE-LMg"/>
+                                    <constraint firstAttribute="trailing" secondItem="jzI-En-BE1" secondAttribute="trailing" constant="5" id="Uxu-DN-MKB"/>
+                                    <constraint firstItem="jzI-En-BE1" firstAttribute="leading" secondItem="eTH-JX-PXt" secondAttribute="leading" constant="5" id="c5r-up-Pe9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGy-Yw-9rD" userLabel="RegaloIconView">
+                                <rect key="frame" x="90" y="0.0" width="35" height="33"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_image_buzon_regalo" translatesAutoresizingMaskIntoConstraints="NO" id="eyv-Zu-dLQ">
+                                        <rect key="frame" x="5" y="2" width="28" height="29"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="eyv-Zu-dLQ" firstAttribute="top" secondItem="sGy-Yw-9rD" secondAttribute="top" constant="2" id="TTR-Ny-NbY"/>
+                                    <constraint firstItem="eyv-Zu-dLQ" firstAttribute="leading" secondItem="sGy-Yw-9rD" secondAttribute="leading" constant="5" id="aQU-jd-hEe"/>
+                                    <constraint firstAttribute="bottom" secondItem="eyv-Zu-dLQ" secondAttribute="bottom" constant="2" id="ab1-vQ-0Hu"/>
+                                    <constraint firstAttribute="trailing" secondItem="eyv-Zu-dLQ" secondAttribute="trailing" constant="2" id="pAp-XD-NN3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o8d-jQ-hdh" firstAttribute="leading" secondItem="j3j-9a-kXj" secondAttribute="leading" id="9M4-f8-8S7"/>
+                            <constraint firstItem="sGy-Yw-9rD" firstAttribute="top" secondItem="j3j-9a-kXj" secondAttribute="top" id="B3E-th-Eyj"/>
+                            <constraint firstItem="eTH-JX-PXt" firstAttribute="top" secondItem="j3j-9a-kXj" secondAttribute="top" id="BUx-kE-nzX"/>
+                            <constraint firstAttribute="bottom" secondItem="o8d-jQ-hdh" secondAttribute="bottom" id="De2-As-xdE"/>
+                            <constraint firstAttribute="trailing" secondItem="3gz-yb-Frx" secondAttribute="trailing" id="Fvc-Zb-yiJ"/>
+                            <constraint firstItem="eTH-JX-PXt" firstAttribute="leading" secondItem="sGy-Yw-9rD" secondAttribute="trailing" id="In1-sD-OEe"/>
+                            <constraint firstItem="fzq-kG-tEo" firstAttribute="width" secondItem="j3j-9a-kXj" secondAttribute="width" multiplier="25%" id="KsA-VN-3jC"/>
+                            <constraint firstItem="3gz-yb-Frx" firstAttribute="top" secondItem="sGy-Yw-9rD" secondAttribute="bottom" id="Lsy-wv-S3U"/>
+                            <constraint firstItem="fzq-kG-tEo" firstAttribute="height" secondItem="j3j-9a-kXj" secondAttribute="height" multiplier="35%" id="Oqj-uE-Ece"/>
+                            <constraint firstItem="3gz-yb-Frx" firstAttribute="top" secondItem="eTH-JX-PXt" secondAttribute="bottom" id="Rx2-gZ-mFA"/>
+                            <constraint firstItem="fzq-kG-tEo" firstAttribute="leading" secondItem="eTH-JX-PXt" secondAttribute="trailing" id="Sqj-Am-vrF"/>
+                            <constraint firstAttribute="bottom" secondItem="3gz-yb-Frx" secondAttribute="bottom" id="Sy0-KW-ngW"/>
+                            <constraint firstItem="sGy-Yw-9rD" firstAttribute="width" secondItem="j3j-9a-kXj" secondAttribute="width" multiplier="10%" id="Ycp-Wg-zdf"/>
+                            <constraint firstItem="sGy-Yw-9rD" firstAttribute="leading" secondItem="o8d-jQ-hdh" secondAttribute="trailing" id="aev-GV-rzP"/>
+                            <constraint firstItem="o8d-jQ-hdh" firstAttribute="top" secondItem="j3j-9a-kXj" secondAttribute="top" id="hCv-jH-emW"/>
+                            <constraint firstItem="fzq-kG-tEo" firstAttribute="top" secondItem="j3j-9a-kXj" secondAttribute="top" id="iH8-xk-jxH"/>
+                            <constraint firstItem="o8d-jQ-hdh" firstAttribute="width" secondItem="j3j-9a-kXj" secondAttribute="width" multiplier="20%" constant="20" id="kn5-r4-bNN"/>
+                            <constraint firstAttribute="trailing" secondItem="fzq-kG-tEo" secondAttribute="trailing" id="lip-ip-lxV"/>
+                            <constraint firstItem="3gz-yb-Frx" firstAttribute="top" secondItem="fzq-kG-tEo" secondAttribute="bottom" id="oyN-bY-PN5"/>
+                            <constraint firstItem="3gz-yb-Frx" firstAttribute="leading" secondItem="o8d-jQ-hdh" secondAttribute="trailing" id="zky-Vs-pCl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="j3j-9a-kXj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6pF-UG-LCe"/>
+                    <constraint firstAttribute="trailing" secondItem="j3j-9a-kXj" secondAttribute="trailing" id="ZLg-HT-SDz"/>
+                    <constraint firstItem="j3j-9a-kXj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eHP-uO-G38"/>
+                    <constraint firstAttribute="bottom" secondItem="j3j-9a-kXj" secondAttribute="bottom" id="tZp-Qr-TXM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="bRegaloFecha" destination="aEu-AG-llG" id="HYv-5C-iAh"/>
+                <outlet property="bRegaloFoto" destination="Ydz-vK-RYo" id="Ajx-y6-OeC"/>
+                <outlet property="bRegaloMensaje" destination="M1i-Zm-Kbb" id="SN5-Xb-JK1"/>
+                <outlet property="bRegaloSaludo" destination="jzI-En-BE1" id="4tU-ix-TRt"/>
+            </connections>
+            <point key="canvasLocation" x="243.5" y="-233.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_image_buzon_regalo" width="50" height="50"/>
+    </resources>
+</document>

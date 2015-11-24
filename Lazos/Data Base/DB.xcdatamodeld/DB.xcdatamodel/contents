@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Xcode 4.3">
+    <entity name="LMAhijado" representedClassName="LMAhijado" syncable="YES">
+        <attribute name="apellido_materno_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apellido_paterno_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calificacion_ciencias" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="calificacion_espanol" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="calificacion_matematicas" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ciclo_escolar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha_nacimiento_ahijado" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="filial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grado" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="grupo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gustos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ni_escuela" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nip_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nivel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_escuela" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="talla_calzado" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="talla_ropa" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="LMAportaciones" representedClassName="LMAportaciones" syncable="YES">
+        <attribute name="fecha_cargo" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="monto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="periodicidad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resibo_c" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LMBuzon" representedClassName="LMBuzon" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="estatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha_buzon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_buzon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nip_padrino" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LMBuzonRecibidos" representedClassName="LMBuzonRecibidos" syncable="YES">
+        <attribute name="apellido_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caso" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="categoria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_ahijado" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_buzon" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_padrino" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="nip_ahijado" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="nip_padrino" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre_ahijado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="texto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_imagen_opcional" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_imagen_respuesta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LMNoticia" representedClassName="LMNoticia" syncable="YES">
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="hora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_noticia" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="mostrar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noticia_descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo_noticia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_video" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LMPadrino" representedClassName="LMPadrino" syncable="YES">
+        <attribute name="apellidos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_entered" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nip_godfather" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="no_godchildren" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rfc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LMAhijado" positionX="72" positionY="-1278" width="128" height="330"/>
+        <element name="LMAportaciones" positionX="72" positionY="-1197" width="128" height="105"/>
+        <element name="LMBuzon" positionX="72" positionY="-1197" width="128" height="165"/>
+        <element name="LMNoticia" positionX="214" positionY="-1348" width="128" height="180"/>
+        <element name="LMPadrino" positionX="-63" positionY="-1350" width="128" height="165"/>
+        <element name="LMBuzonRecibidos" positionX="72" positionY="-1197" width="128" height="300"/>
+    </elements>
+</model>

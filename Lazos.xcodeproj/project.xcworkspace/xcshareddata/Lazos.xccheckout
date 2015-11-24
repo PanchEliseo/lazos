@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0FBBCC7D-5D97-4E5F-BA8E-E5054B75A550</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lazos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E4EEE5F74B3C325E8FC406463D75898EC6A60450</key>
+		<string>https://mandarina.sferea.com:8443/cliff/IO150704</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lazos.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E4EEE5F74B3C325E8FC406463D75898EC6A60450</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://mandarina.sferea.com:8443/cliff/IO150704</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4EEE5F74B3C325E8FC406463D75898EC6A60450</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4EEE5F74B3C325E8FC406463D75898EC6A60450</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IO150704</string>
+		</dict>
+	</array>
+</dict>
+</plist>
